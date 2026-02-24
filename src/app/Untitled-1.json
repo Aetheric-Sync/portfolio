@@ -1,0 +1,328 @@
+{
+	"knownSymbols": {
+		"DesignServicesOutlinedIcon": [
+			{
+				"name": "DesignServicesOutlinedIcon",
+				"module": "@mui/icons-material/DesignServicesOutlined",
+				"isDefault": true
+			}
+		],
+		"CursorDot": [
+			{
+				"name": "CursorDot",
+				"path": "/Users/apple/Desktop/My Portfolio/my-portfolio/src/app/CursorDot.tsx",
+				"isDefault": true
+			}
+		],
+		"React": [
+			{
+				"name": "React",
+				"module": "react",
+				"isDefault": true
+			}
+		],
+		"{ useEffect": [
+			{
+				"name": "{ useEffect",
+				"module": "react",
+				"isDefault": true
+			}
+		],
+		"useRef": [
+			{
+				"name": "useRef",
+				"module": "react",
+				"isDefault": true
+			}
+		],
+		"useEffect": [
+			{
+				"name": "useEffect",
+				"module": "react",
+				"isDefault": false
+			}
+		],
+		"useState": [
+			{
+				"name": "useState",
+				"module": "react",
+				"isDefault": false
+			}
+		],
+		"GitHubIcon": [
+			{
+				"name": "GitHubIcon",
+				"module": "@mui/icons-material/GitHub",
+				"isDefault": true
+			}
+		],
+		"LinkedInIcon": [
+			{
+				"name": "LinkedInIcon",
+				"module": "@mui/icons-material/LinkedIn",
+				"isDefault": true
+			}
+		],
+		"TwitterIcon": [
+			{
+				"name": "TwitterIcon",
+				"module": "@mui/icons-material/Twitter",
+				"isDefault": true
+			}
+		],
+		"EmailIcon": [
+			{
+				"name": "EmailIcon",
+				"module": "@mui/icons-material/Email",
+				"isDefault": true
+			}
+		],
+		"HomeIcon": [
+			{
+				"name": "HomeIcon",
+				"module": "@mui/icons-material/Home",
+				"isDefault": true
+			}
+		],
+		"BusinessCenterOutlinedIcon": [
+			{
+				"name": "BusinessCenterOutlinedIcon",
+				"module": "@mui/icons-material/BusinessCenterOutlined",
+				"isDefault": true
+			}
+		],
+		"Person2OutlinedIcon": [
+			{
+				"name": "Person2OutlinedIcon",
+				"module": "@mui/icons-material/Person2Outlined",
+				"isDefault": true
+			}
+		],
+		"PhoneTwoToneIcon": [
+			{
+				"name": "PhoneTwoToneIcon",
+				"module": "@mui/icons-material/PhoneTwoTone",
+				"isDefault": true
+			}
+		],
+		"type { Metadata": [
+			{
+				"name": "type { Metadata",
+				"module": "next",
+				"isDefault": true
+			}
+		],
+		"Geist": [
+			{
+				"name": "Geist",
+				"module": "next/font/google",
+				"isDefault": false
+			}
+		],
+		"Geist_Mono": [
+			{
+				"name": "Geist_Mono",
+				"module": "next/font/google",
+				"isDefault": false
+			}
+		],
+		"About": [
+			{
+				"name": "About",
+				"path": "/Users/apple/Desktop/My Portfolio/my-portfolio/src/app/about/page.tsx",
+				"type": "function",
+				"isDefault": true
+			}
+		],
+		"Contact": [
+			{
+				"name": "Contact",
+				"path": "/Users/apple/Desktop/My Portfolio/my-portfolio/src/app/contact/page.tsx",
+				"type": "function",
+				"isDefault": true
+			}
+		],
+		"nextConfig": [
+			{
+				"name": "nextConfig",
+				"path": "/Users/apple/Desktop/My Portfolio/my-portfolio/next.config.ts",
+				"isDefault": true
+			}
+		],
+		"type { NextConfig": [
+			{
+				"name": "type { NextConfig",
+				"module": "next",
+				"isDefault": true
+			}
+		],
+		"type { ResolvingMetadata": [
+			{
+				"name": "type { ResolvingMetadata",
+				"module": "next/types.js",
+				"isDefault": true
+			}
+		],
+		"ResolvingViewport": [
+			{
+				"name": "ResolvingViewport",
+				"module": "next/types.js",
+				"isDefault": true
+			}
+		],
+		"cacheTag": [
+			{
+				"name": "cacheTag",
+				"module": "next/dist/server/use-cache/cache-tag",
+				"isDefault": false
+			}
+		],
+		"Link": [
+			{
+				"name": "Link",
+				"module": "next/link",
+				"isDefault": true
+			}
+		],
+		"Services": [
+			{
+				"name": "Services",
+				"path": "/Users/apple/Desktop/My Portfolio/my-portfolio/src/app/services/page.tsx",
+				"type": "function",
+				"isDefault": true
+			}
+		],
+		"Projects": [
+			{
+				"name": "Projects",
+				"path": "/Users/apple/Desktop/My Portfolio/my-portfolio/src/app/projects/page.tsx",
+				"type": "function",
+				"isDefault": true
+			}
+		],
+		"Image": [
+			{
+				"name": "Image",
+				"module": "next/image",
+				"isDefault": true
+			}
+		],
+		"Home": [
+			{
+				"name": "Home",
+				"path": "/Users/apple/Desktop/My Portfolio/my-portfolio/src/app/page.tsx",
+				"type": "function",
+				"isDefault": true
+			}
+		],
+		"Footer": [
+			{
+				"name": "Footer",
+				"path": "/Users/apple/Desktop/My Portfolio/my-portfolio/src/app/components/Footer.tsx",
+				"type": "function",
+				"isDefault": true
+			}
+		],
+		"metadata": [
+			{
+				"name": "metadata",
+				"path": "/Users/apple/Desktop/My Portfolio/my-portfolio/src/app/layout.tsx",
+				"type": "const",
+				"isDefault": false
+			}
+		],
+		"RootLayout": [
+			{
+				"name": "RootLayout",
+				"path": "/Users/apple/Desktop/My Portfolio/my-portfolio/src/app/layout.tsx",
+				"type": "function",
+				"isDefault": true
+			}
+		],
+		"usePathname": [
+			{
+				"name": "usePathname",
+				"module": "next/navigation",
+				"isDefault": false
+			}
+		],
+		"useActivePath": [
+			{
+				"name": "useActivePath",
+				"path": "/Users/apple/Desktop/My Portfolio/my-portfolio/src/app/components/useActivePath.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"NavBar": [
+			{
+				"name": "NavBar",
+				"path": "/Users/apple/Desktop/My Portfolio/my-portfolio/src/app/components/NavBar.tsx",
+				"type": "function",
+				"isDefault": true
+			}
+		],
+		"the": [
+			{
+				"name": "the",
+				"path": "/Users/apple/Desktop/My Portfolio/my-portfolio/.next/dev/types/validator.ts",
+				"isDefault": false
+			}
+		],
+		"ParamsOf": [
+			{
+				"name": "ParamsOf",
+				"path": "/Users/apple/Desktop/My Portfolio/my-portfolio/.next/dev/types/routes.d.ts",
+				"type": "type",
+				"isDefault": false
+			}
+		],
+		"type": [
+			{
+				"name": "type",
+				"path": "/Users/apple/Desktop/My Portfolio/my-portfolio/.next/dev/types/routes.d.ts",
+				"isDefault": false
+			}
+		],
+		"Page": [
+			{
+				"name": "Page",
+				"path": "/Users/apple/Desktop/My Portfolio/my-portfolio/.next/dev/types/routes.d.ts",
+				"type": "function",
+				"isDefault": true
+			}
+		],
+		"Layout": [
+			{
+				"name": "Layout",
+				"path": "/Users/apple/Desktop/My Portfolio/my-portfolio/.next/dev/types/routes.d.ts",
+				"type": "function",
+				"isDefault": true
+			}
+		],
+		"cacheLife": [
+			{
+				"name": "cacheLife",
+				"path": "/Users/apple/Desktop/My Portfolio/my-portfolio/.next/dev/types/cache-life.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"unstable_cacheTag": [
+			{
+				"name": "unstable_cacheTag",
+				"path": "/Users/apple/Desktop/My Portfolio/my-portfolio/.next/dev/types/cache-life.d.ts",
+				"type": "const",
+				"isDefault": false
+			}
+		],
+		"unstable_cacheLife": [
+			{
+				"name": "unstable_cacheLife",
+				"path": "/Users/apple/Desktop/My Portfolio/my-portfolio/.next/dev/types/cache-life.d.ts",
+				"type": "const",
+				"isDefault": false
+			}
+		]
+	}
+}

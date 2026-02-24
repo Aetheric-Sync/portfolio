@@ -1,3 +1,124 @@
+/* Glassmorphism card style for all cards */
+.glass-card {
+  background: rgba(24, 26, 42, 0.55);
+  border-radius: 1.25rem;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.18);
+  border: 1.5px solid rgba(77, 181, 255, 0.18);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  transition: box-shadow 0.2s, border 0.2s;
+}
+
+.glass-card:hover {
+  box-shadow: 0 12px 36px 0 rgba(77, 181, 255, 0.22);
+  border: 1.5px solid #4DB5FF44;
+}
+
+/* Icon glass effect for icons in cards */
+.icon-glass {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: rgba(77, 181, 255, 0.10);
+  box-shadow: 0 2px 12px 0 rgba(77, 181, 255, 0.12);
+  border: 1.5px solid rgba(77, 181, 255, 0.18);
+  margin-bottom: 0.5rem;
+  transition: box-shadow 0.2s, border 0.2s;
+}
+.icon-glass svg {
+  filter: drop-shadow(0 0 4px #4DB5FF44);
+}
+.icon-glass:hover {
+  box-shadow: 0 4px 18px 0 #4DB5FF33;
+  border: 1.5px solid #4DB5FF44;
+}
+/* Slide-in animation for scroll */
+.animate-slide-in {
+  opacity: 1 !important;
+  transform: translateY(0) scale(1) !important;
+  transition: opacity 0.7s, transform 0.7s;
+}
+
+.opacity-0 {
+  opacity: 0;
+  transform: translateY(40px) scale(0.98);
+}
+/* About page custom background */
+.about-bg {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.about-bg .circle {
+  position: absolute;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #6eeaff33 0%, #1a2340 100%);
+  opacity: 0.25;
+}
+
+.about-bg .circle1 {
+  width: 420px;
+  height: 420px;
+  left: 5vw;
+  top: 10vh;
+}
+.about-bg .circle2 {
+  width: 320px;
+  height: 320px;
+  right: 8vw;
+  top: 40vh;
+}
+.about-bg .circle3 {
+  width: 180px;
+  height: 180px;
+  left: 50vw;
+  bottom: 8vh;
+}
+
+.about-bg .line {
+  position: absolute;
+  height: 4px;
+  background: linear-gradient(90deg, #ff4dff 0%, #6eeaff 100%);
+  border-radius: 2px;
+  opacity: 0.7;
+}
+.about-bg .line1 {
+  width: 320px;
+  left: 12vw;
+  top: 18vh;
+  transform: rotate(18deg);
+}
+.about-bg .line2 {
+  width: 220px;
+  right: 10vw;
+  top: 55vh;
+  transform: rotate(-12deg);
+}
+.about-bg .line3 {
+  width: 140px;
+  left: 60vw;
+  bottom: 12vh;
+  transform: rotate(8deg);
+}
+
+.about-bg .dots {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100vw;
+  height: 180px;
+  background: radial-gradient(circle, #6eeaff33 1px, transparent 1px);
+  background-size: 18px 18px;
+  opacity: 0.18;
+}
+body {
+  position: relative;
+}
 @import "tailwindcss";
 
 :root {
@@ -19,8 +140,26 @@
   }
 }
 
+
 body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+  cursor: none;
+}
+
+/* Custom moving dot cursor */
+#dot-cursor {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 16px;
+  height: 16px;
+  background: #4DB5FF;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 9999;
+  transform: translate(-50%, -50%);
+  transition: transform 0.08s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 0 8px #4DB5FF88;
 }
